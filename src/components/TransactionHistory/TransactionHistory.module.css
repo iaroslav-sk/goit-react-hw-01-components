@@ -1,0 +1,10 @@
+.table {
+  margin: 0 auto;
+  background-color: chocolate;
+  width: 550px;
+}
+
+.tbody {
+  text-align: center;
+  padding-top: 5px;
+}

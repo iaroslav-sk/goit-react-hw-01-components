@@ -1,0 +1,36 @@
+.ProfileWrapp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: rgb(219, 211, 211);
+  width: 400px;
+  height: 100%;
+  padding: 20px;
+  border: 2px solid gray;
+}
+
+.ProfileAbout {
+  text-align: center;
+  color: blue;
+  margin-top: 10px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+  width: 100%;
+  border: 1px solid gray;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 25px;
+  width: 125px;
+  height: 80px;
+  border: 1px solid gray;
+}

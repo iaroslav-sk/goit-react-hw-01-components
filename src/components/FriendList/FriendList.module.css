@@ -1,0 +1,33 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  width: 700px;
+  /* background-color: brown; */
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  width: 100%;
+  height: 100px;
+  border: 1px solid gray;
+}
+.isOnline {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(6, 56, 6);
+  border-radius: 100%;
+  margin-right: 5px;
+}
+
+.isOnlineFalse {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-right: 5px;
+  background-color: red;
+}
